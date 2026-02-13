@@ -16,7 +16,7 @@ export default function Header() {
 
     return (
         <header className="fixed top-5 left-1/2 z-50 w-[92%] -translate-x-1/2 text-zinc-50 md:w-auto">
-            <div className="rounded-full border border-white/10 bg-zinc-900/70 px-4 py-2 backdrop-blur-xl backdrop-saturate-200 md:px-5">
+            <div className="rounded-full border border-white/10 bg-zinc-900/70 px-4 py-3 backdrop-blur-xl backdrop-saturate-200 md:px-5">
                 <div className="flex items-center justify-between">
                     <Link href="/" className="px-2 py-1 text-sm font-semibold tracking-wide text-zinc-100 md:hidden">
                         Ujjwal
@@ -25,7 +25,7 @@ export default function Header() {
                     <ul className="hidden items-center justify-center gap-5 md:flex">
                         {navLinks.map((link) => (
                             <li key={link.href}>
-                                <Link href={link.href} className="px-3 py-1 text-sm text-zinc-200 transition hover:text-white">
+                                <Link href={link.href} className="px-3 py-1 text-md text-zinc-200 transition hover:text-white">
                                     {link.label}
                                 </Link>
                             </li>
