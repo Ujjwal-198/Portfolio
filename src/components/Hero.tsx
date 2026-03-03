@@ -19,7 +19,7 @@ export default function Hero({ className }: { className?: string }) {
                     className="cursor-pointer border-zinc-700 bg-zinc-950/50 text-zinc-100 hover:bg-zinc-900 hover:text-zinc-100"
                     asChild
                 >
-                    <a href="/Docs/UjjwalSingh.pdf" download="UjjwalSingh.pdf">
+                    <a href="/Docs/Resume_2026.pdf" download="UjjwalSingh.pdf">
                         <Download /> Download CV
                     </a>
                 </Button>
